@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg-Form</title>
+    <link rel="icon" href="./icon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <center><div class="hh"><h2>Registration Form</h2></div></center><hr>
+        <center><p class="dnone" id="sucreg">Successfully Registered!!!</p></center>
+        <center><p class="ealert dnone" id="error">User Already Exists!!!</p></center>
+        <input type="text" class="inp" placeholder="Please Enter Your Name" id="name">
+        <input type="email" class="inp" placeholder="Please Enter Your Email" id="email">
+        <button id="btn" onclick="addUser()">Add User</button>
+        <div id="container">
+            <!-- elements -->
+        </div>
+    </div>
+    <script src="./card.js"></script>
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+        });
+      </script>
+</body>
+</html>

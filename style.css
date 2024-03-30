@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body{
+    background-color:  rgb(24, 197, 174);
+}
+
+.card{
+    background-color: white;
+    flex-wrap: wrap;
+    width:261px;
+    border:0.001px solid rgb(238, 207, 207);
+    margin:50px auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    margin:1px 2px;
+}
+
+.salert{
+    color:green;
+    background-color: rgb(188, 255, 188);
+}
+
+.ealert{
+    color:red;
+    background-color: rgb(255, 196, 196);
+}
+
+.dnone{
+    display: none;
+}
+
+.card:hover{
+    -webkit-box-shadow: 5px 5px 20px 10px rgb(70, 58, 58);
+    box-shadow: 5px 5px 20px 10px rgb(70, 58, 58);
+    /* -webkit-box-shadow: 5px 5px 20px 10px rgb(255, 182, 182);
+    box-shadow: 5px 5px 20px 10px rgb(255, 182, 182); */
+    transition: 0.4s ease-in-out;
+}
+
+.inp{
+    width:85%;
+    font-size: 15px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin-top: 13px;
+    margin-left:14px;
+    border: 1px solid grey;
+}
+
+.inp:focus{
+    outline:none;
+    border:1px solid rgb(226, 115, 115);
+    transition: 0.4s ease-in-out;
+}
+
+h2{
+    /* background-color: rgb(161, 87, 87); */
+    color:white;
+    margin:0px 0px;
+    padding-top: 7px;
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+}
+
+.hh{
+    background-color: rgb(226, 115, 115);
+    width:260px;
+    height:50px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+hr{
+    margin: 0.5px 0px;
+}
+
+#btn{
+    width:90%;
+    background-color: rgb(24, 197, 174);
+    color:white;
+    border:none;
+    border-radius: 14px;
+    font-size:16px;
+    font-weight: bolder;
+    padding:7px 7px;
+    margin: 7px 0px;
+    margin-top: 15px;
+    margin-left:13px;
+    margin-bottom: 13px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    border:1.5px dotted white;
+    transition: 0.1s ease-in-out;
+}
+
+.Users
+{
+    width:85%;
+    border:0.1px solid  rgb(255, 182, 182);
+    border-radius: 14px;
+    padding: 10px 5px;
+    font-size: 12px;
+    margin:15px 15px;
+}
+
+.Users h3{
+    margin:5px 5px;
+}
